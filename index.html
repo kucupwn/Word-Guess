@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="wrong_display" id="wrong_english">Wrong english</h2>
+      <div class="input_wrapper" id="input_english_wrapper">
+        <input
+          type="text"
+          placeholder="Type here..."
+          class="input_text"
+          id="input_english"
+        />
+        <button type="submit" class="btn_submit" id="btn_submit_english">
+          Submit
+        </button>
+      </div>
+      <div id="english_wrap">
+        <h1 id="english">English</h1>
+      </div>
+      <div id="other_wrap">
+        <h1 id="other_lang">Other</h1>
+      </div>
+      <div class="input_wrapper" id="input_other_wrapper">
+        <input
+          type="text"
+          placeholder="Type here..."
+          class="input_text"
+          id="input_other"
+        />
+        <button type="submit" class="btn_submit" id="btn_submit_other">
+          Submit
+        </button>
+      </div>
+      <h2 class="wrong_display" id="wrong_other">Wrong other</h2>
+      <div class="btn_wrap">
+        <button class="btn_generate" id="spanish">Spanish</button>
+        <button class="btn_generate" id="russian">Russian</button>
+      </div>
+    </div>
+    <script src="main.js"></script>
+    <script src="functions.js"></script>
+    <script src="vocRussian.js"></script>
+    <script src="vocSpanish.js"></script>
+  </body>
+</html>
